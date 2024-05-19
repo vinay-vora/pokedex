@@ -71,7 +71,7 @@ function App() {
     }
   }
   useEffect(() => {
-    fetchData(100).then(data => setPokeArray(data))
+    fetchData(0).then(data => setPokeArray(data))
   }, []);
   return (
     <>
