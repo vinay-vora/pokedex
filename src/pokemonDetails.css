@@ -100,9 +100,11 @@
 @media only screen and (min-width: 768px) {
     .details{
         flex-direction: row;
+        text-align: center;
     }
     .leftSection{
         padding: 24px;
+        text-align: center;
     }
     .rightSection{
         text-align: start;
