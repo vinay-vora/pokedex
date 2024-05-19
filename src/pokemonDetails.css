@@ -1,7 +1,7 @@
 .details{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: center !important;
     overflow-y: scroll;
     padding: 24px
 };
