@@ -1,0 +1,120 @@
+.details{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow-y: scroll;
+    padding: 24px
+};
+.measurements{
+    display: flex;
+}
+.leftSection{
+    text-align: center;
+}
+.rightSection{
+    width: 100%;
+}
+.pokeDetImg{
+    width: 246px;
+    height: 242px;
+}
+.pokeTypes{
+    display: flex;
+    justify-content: center;
+    padding-block: 24px;
+}
+.measurements{
+    display: flex;
+    justify-content: center;
+}
+.measurement{
+    padding: 12px;
+}
+.measureHeading{
+    font-weight: 700;
+    color: #E1191A;
+}
+.measureValue{
+    padding-block: 6px;
+}
+.stats{
+    padding-block: 12px;
+    color: #E1191A;
+    font-weight: 700;
+}
+.stat{
+    padding-block: 12px;
+}
+.statGroup{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.statName{
+    text-align: start;
+    width: inherit;
+}
+.statValue{
+    text-align: end;
+    width: 100%;
+}
+.pokeDetId{
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+    color: #DBDCDC;
+}
+.pokeDetName{
+    font-size: 36px;
+    padding-block: 6px;
+    font-weight: 700;
+}
+.pokeDesc{
+    padding-block: 6px;
+}
+.progressBar{
+    width: 100%;
+    appearance: none;
+    height: 5px;
+}
+.progressBar::-webkit-progress-value{
+    background-color: #E1191A;
+}
+.progressBar::-webkit-progress-bar {
+    background-color: #DBDCDC;
+}
+.nextPrev{
+    background-color: rgb(225, 25, 26);
+    border: none;
+    font-size: 24px;
+    font-style: italic;
+    color: white;
+}
+.nextPrev:hover{
+    cursor: pointer;
+}
+.nextPrev i{
+    padding-inline: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+    .details{
+        flex-direction: row;
+    }
+    .leftSection{
+        padding: 24px;
+    }
+    .rightSection{
+        text-align: start;
+        padding: 24px;
+        display: flex;
+    }
+    .description{
+        padding: 12px;
+        flex: 1;
+    }
+    .stats{
+        padding: 12px;
+        flex: 1;
+    }
+}

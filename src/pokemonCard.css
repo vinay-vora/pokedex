@@ -1,0 +1,38 @@
+.card{
+    flex: 0 0 298px;
+    height: 348px;
+    font-size: 24px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 12px;
+}
+.card:hover{
+    box-shadow: 0px 0px 1px 1px black;
+}
+.header{
+    padding: 10px;
+}
+.pokeId{
+    font-family: poppins;
+    font-weight: 600;
+    font-style: italic;
+    color: #DBDCDC
+}
+.cardBody{
+    text-align: center;
+    padding: 10px;
+}
+.pokeImg{
+    height: 210px;
+    max-width: 236px;
+}
+.pokeName{
+    font-family: poppins;
+    font-weight: 600;
+    flex: 9;
+}
+.footer{
+    display: flex;
+   padding: 10px;
+}
